@@ -21,12 +21,14 @@ namespace selenium.Features
     [System.Runtime.CompilerServices.CompilerGeneratedAttribute()]
     [NUnit.Framework.TestFixtureAttribute()]
     [NUnit.Framework.DescriptionAttribute("search Google")]
+    [NUnit.Framework.CategoryAttribute("E2E")]
     public partial class SearchGoogleFeature
     {
         
         private TechTalk.SpecFlow.ITestRunner testRunner;
         
-        private string[] _featureTags = ((string[])(null));
+        private string[] _featureTags = new string[] {
+                "E2E"};
         
 #line 1 "gg.feature"
 #line hidden
@@ -35,7 +37,8 @@ namespace selenium.Features
         public virtual void FeatureSetup()
         {
             testRunner = TechTalk.SpecFlow.TestRunnerManager.GetTestRunner();
-            TechTalk.SpecFlow.FeatureInfo featureInfo = new TechTalk.SpecFlow.FeatureInfo(new System.Globalization.CultureInfo("en-US"), "Features", "search Google", null, ProgrammingLanguage.CSharp, ((string[])(null)));
+            TechTalk.SpecFlow.FeatureInfo featureInfo = new TechTalk.SpecFlow.FeatureInfo(new System.Globalization.CultureInfo("en-US"), "Features", "search Google", null, ProgrammingLanguage.CSharp, new string[] {
+                        "E2E"});
             testRunner.OnFeatureStart(featureInfo);
         }
         
@@ -75,28 +78,34 @@ namespace selenium.Features
         
         public virtual void FeatureBackground()
         {
-#line 4
-#line hidden
 #line 5
- testRunner.Given("Google page open", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
 #line hidden
 #line 6
+ testRunner.Given("Google page open", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
+#line hidden
+#line 7
  testRunner.And("search box should present and enable", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
 #line hidden
         }
         
         [NUnit.Framework.TestAttribute()]
         [NUnit.Framework.DescriptionAttribute("search in GG home page with some tutorial")]
-        [NUnit.Framework.TestCaseAttribute("java", null)]
-        [NUnit.Framework.TestCaseAttribute("Specflow", null)]
-        [NUnit.Framework.TestCaseAttribute("Selenium", null)]
+        [NUnit.Framework.TestCaseAttribute("java", new string[] {
+                "smoke",
+                "Application1"}, Category="smoke,Application1")]
+        [NUnit.Framework.TestCaseAttribute("Specflow", new string[] {
+                "Regression",
+                "Application2"}, Category="Regression,Application2")]
+        [NUnit.Framework.TestCaseAttribute("Selenium", new string[] {
+                "UAT",
+                "Application3"}, Category="UAT,Application3")]
         public virtual void SearchInGGHomePageWithSomeTutorial(string keyworkname, string[] exampleTags)
         {
             string[] tagsOfScenario = exampleTags;
             System.Collections.Specialized.OrderedDictionary argumentsOfScenario = new System.Collections.Specialized.OrderedDictionary();
             argumentsOfScenario.Add("keyworkname", keyworkname);
             TechTalk.SpecFlow.ScenarioInfo scenarioInfo = new TechTalk.SpecFlow.ScenarioInfo("search in GG home page with some tutorial", null, tagsOfScenario, argumentsOfScenario, this._featureTags);
-#line 8
+#line 9
 this.ScenarioInitialize(scenarioInfo);
 #line hidden
             bool isScenarioIgnored = default(bool);
@@ -116,16 +125,16 @@ this.ScenarioInitialize(scenarioInfo);
             else
             {
                 this.ScenarioStart();
-#line 4
+#line 5
 this.FeatureBackground();
 #line hidden
-#line 10
+#line 11
  testRunner.When(string.Format("User search a course with key \"{0}\" tutorial", keyworkname), ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "When ");
 #line hidden
-#line 11
+#line 12
  testRunner.And("hit enter", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
 #line hidden
-#line 12
+#line 13
  testRunner.Then(string.Format("all course \"{0}\" tutorial should be díplayed", keyworkname), ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
 #line hidden
             }

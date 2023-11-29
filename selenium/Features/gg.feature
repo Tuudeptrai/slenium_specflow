@@ -1,4 +1,5 @@
-﻿Feature: search Google
+﻿@E2E
+Feature: search Google
 
 #test comment in gg feature file
 Background:
@@ -11,8 +12,17 @@ Scenario Outline: search in GG home page with some tutorial
 	And hit enter
 	Then all course "<keyworkname>" tutorial should be díplayed
 
+	@smoke @Application1
 	Examples: 
 	|keyworkname|
 	|java		|
+
+	@Regression @Application2
+	Examples: 
+	|keyworkname|
 	|Specflow	|
+
+	@UAT @Application3
+	Examples: 
+	|keyworkname|
 	|Selenium	|
