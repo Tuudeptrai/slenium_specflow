@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\vuvan\\OneDrive\\Desktop\\C#\\selenium\\selenium\\selenium.csproj": {}
+    "C:\\Users\\vuvan\\OneDrive\\Desktop\\C#\\Selenium\\selenium\\selenium.csproj": {}
   },
   "projects": {
-    "C:\\Users\\vuvan\\OneDrive\\Desktop\\C#\\selenium\\selenium\\selenium.csproj": {
+    "C:\\Users\\vuvan\\OneDrive\\Desktop\\C#\\Selenium\\selenium\\selenium.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\vuvan\\OneDrive\\Desktop\\C#\\selenium\\selenium\\selenium.csproj",
+        "projectUniqueName": "C:\\Users\\vuvan\\OneDrive\\Desktop\\C#\\Selenium\\selenium\\selenium.csproj",
         "projectName": "selenium",
-        "projectPath": "C:\\Users\\vuvan\\OneDrive\\Desktop\\C#\\selenium\\selenium\\selenium.csproj",
+        "projectPath": "C:\\Users\\vuvan\\OneDrive\\Desktop\\C#\\Selenium\\selenium\\selenium.csproj",
         "packagesPath": "C:\\Users\\vuvan\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\vuvan\\OneDrive\\Desktop\\C#\\selenium\\selenium\\obj\\",
+        "outputPath": "C:\\Users\\vuvan\\OneDrive\\Desktop\\C#\\Selenium\\selenium\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\vuvan\\AppData\\Roaming\\NuGet\\NuGet.Config",
