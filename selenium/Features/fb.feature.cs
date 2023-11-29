@@ -76,14 +76,10 @@ namespace selenium.Features
         [NUnit.Framework.TestAttribute()]
         [NUnit.Framework.DescriptionAttribute("To check the login functionality for the FB home page with invalid credentials")]
         [NUnit.Framework.CategoryAttribute("smoke")]
-        [NUnit.Framework.CategoryAttribute("Application1")]
-        [NUnit.Framework.CategoryAttribute("Application2")]
         public virtual void ToCheckTheLoginFunctionalityForTheFBHomePageWithInvalidCredentials()
         {
             string[] tagsOfScenario = new string[] {
-                    "smoke",
-                    "Application1",
-                    "Application2"};
+                    "smoke"};
             System.Collections.Specialized.OrderedDictionary argumentsOfScenario = new System.Collections.Specialized.OrderedDictionary();
             TechTalk.SpecFlow.ScenarioInfo scenarioInfo = new TechTalk.SpecFlow.ScenarioInfo("To check the login functionality for the FB home page with invalid credentials", null, tagsOfScenario, argumentsOfScenario, this._featureTags);
 #line 4

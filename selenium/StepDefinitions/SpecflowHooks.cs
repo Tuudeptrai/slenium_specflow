@@ -59,18 +59,32 @@ namespace selenium.StepDefinitions
         {
             Console.WriteLine("in method after Scenario Block");
         }
-        [BeforeStep]
-
+        [BeforeStep (Order =10)]
+        [Scope(Tag = "smoke")]
         public void BeforeStep()
         {
-            Console.WriteLine("in method before Step");
+            Console.WriteLine("in method before Step 1");
         }
 
-        [AfterStep]
+        [AfterStep(Order = 10)]
 
         public void AfterStep()
         {
-            Console.WriteLine("in method after Step");
+            Console.WriteLine("in method after Step 1");
+        } 
+        
+        [BeforeStep(Order = 20)]
+
+        public void BeforeStep2()
+        {
+            Console.WriteLine("in method before Step 2");
+        }
+
+        [AfterStep(Order = 20)]
+
+        public void AfterStep2()
+        {
+            Console.WriteLine("in method after Step 2");
         }
     }
 }

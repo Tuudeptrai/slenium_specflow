@@ -91,14 +91,11 @@ namespace selenium.Features
         [NUnit.Framework.TestAttribute()]
         [NUnit.Framework.DescriptionAttribute("search in GG home page with some tutorial")]
         [NUnit.Framework.TestCaseAttribute("java", new string[] {
-                "smoke",
-                "Application1"}, Category="smoke,Application1")]
+                "intergration"}, Category="intergration")]
         [NUnit.Framework.TestCaseAttribute("Specflow", new string[] {
-                "Regression",
-                "Application2"}, Category="Regression,Application2")]
+                "Regression"}, Category="Regression")]
         [NUnit.Framework.TestCaseAttribute("Selenium", new string[] {
-                "UAT",
-                "Application3"}, Category="UAT,Application3")]
+                "UAT"}, Category="UAT")]
         public virtual void SearchInGGHomePageWithSomeTutorial(string keyworkname, string[] exampleTags)
         {
             string[] tagsOfScenario = exampleTags;
