@@ -1,0 +1,365 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TestRun id="d32877b8-26a2-45e0-ba1d-24e38df3181a" name="vuvan@TUU 2023-12-01 15:26:36" runUser="TUU\vuvan" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <Times creation="2023-12-01T15:26:36.2317400+07:00" queuing="2023-12-01T15:26:36.2317408+07:00" start="2023-12-01T15:26:30.7491726+07:00" finish="2023-12-01T15:26:45.3901947+07:00" />
+  <TestSettings name="default" id="d7ce2a15-30d3-4d58-96d4-6e36f10db795">
+    <Deployment runDeploymentRoot="vuvan_TUU_2023-12-01_15_26_36" />
+  </TestSettings>
+  <Results>
+    <UnitTestResult executionId="adb3b222-4d22-4a9e-b122-94f503ec57ba" testId="c131b42b-2a92-333d-4c47-dd42781d17b6" testName="SearchInGGHomePageWithSomeTutorial(&quot;Specflow&quot;,[&quot;Regression&quot;])" computerName="TUU" duration="00:00:00.0010090" startTime="2023-12-01T15:26:44.9354782+07:00" endTime="2023-12-01T15:26:44.9364874+07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="adb3b222-4d22-4a9e-b122-94f503ec57ba">
+      <Output>
+        <StdOut>in method before Scenario&#xD;
+in method before Scenario Block&#xD;
+Given Google page open&#xD;
+-&gt; done: SearchGoogleStepDefinitions.GivenGooglePageOpen() (0.0s)&#xD;
+And search box should present and enable&#xD;
+-&gt; done: SearchGoogleStepDefinitions.GivenSearchBoxShouldPresentAndEnable() (0.0s)&#xD;
+in method after Scenario Block&#xD;
+in method before Scenario Block&#xD;
+When User search a course with key "Specflow" tutorial&#xD;
+-&gt; done: SearchGoogleStepDefinitions.WhenUserSearchACourseWithKeyTutorial("Specflow") (0.0s)&#xD;
+And hit enter&#xD;
+-&gt; done: SearchGoogleStepDefinitions.whenhitenter() (0.0s)&#xD;
+in method after Scenario Block&#xD;
+in method before Scenario Block&#xD;
+Then all course "Specflow" tutorial should be díplayed&#xD;
+-&gt; done: SearchGoogleStepDefinitions.ThenAllCourseTutorialShouldBeDiplayed("Specflow") (0.0s)&#xD;
+in method after Scenario Block&#xD;
+in method after Scenario</StdOut>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="8b194b06-4e6f-449a-99ef-14c812a901c3" testId="2df186d7-088b-b95e-1cef-393c44be9020" testName="ToCheckTheLoginFunctionalityForTheFBHomePageWithInvalidCredentials(&quot;ffeedđ&quot;,&quot;password233&quot;,null)" computerName="TUU" duration="00:00:04.2163950" startTime="2023-12-01T15:26:40.7050202+07:00" endTime="2023-12-01T15:26:44.9214146+07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="8b194b06-4e6f-449a-99ef-14c812a901c3">
+      <Output>
+        <StdOut>in method before Scenario&#xD;
+in method before Scenario Block&#xD;
+Given User navigates to the Facebook home page&#xD;
+in method before Step 1&#xD;
+-&gt; done: FacebookHomePageLoginStepDefinitions.GivenUserNavigatesToTheFacebookHomePage() (2.4s)&#xD;
+in method after Step 1&#xD;
+in method after Scenario Block&#xD;
+in method before Scenario Block&#xD;
+When User enters "ffeedđ" as username and "password233" as password&#xD;
+in method before Step 1&#xD;
+-&gt; done: FacebookHomePageLoginStepDefinitions.WhenUserEntersAsUsernameAndAsPassword("ffeedđ", "password233") (0.8s)&#xD;
+in method after Step 1&#xD;
+And Click on the login button&#xD;
+in method before Step 1&#xD;
+-&gt; done: FacebookHomePageLoginStepDefinitions.WhenClickOnTheLoginButton() (0.1s)&#xD;
+in method after Step 1&#xD;
+in method after Scenario Block&#xD;
+in method before Scenario Block&#xD;
+Then the login not successful&#xD;
+in method before Step 1&#xD;
+Log in to Facebook&#xD;
+-&gt; done: FacebookHomePageLoginStepDefinitions.ThenTheLoginNotSuccessful() (1.0s)&#xD;
+in method after Step 1&#xD;
+in method after Scenario Block&#xD;
+in method after Scenario</StdOut>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="6ccd8ec1-c0cb-4094-ba96-c4bf92ff3aad" testId="49eeaa4b-3855-9cf6-20d0-4837e48e8456" testName="ToCheckTheLoginFunctionalityForTheFBHomePageWithInvalidCredentials(&quot;đfffff&quot;,&quot;password223&quot;,null)" computerName="TUU" duration="00:00:04.5499349" startTime="2023-12-01T15:26:36.1544370+07:00" endTime="2023-12-01T15:26:40.7043712+07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="6ccd8ec1-c0cb-4094-ba96-c4bf92ff3aad">
+      <Output>
+        <StdOut>in method before Scenario&#xD;
+in method before Scenario Block&#xD;
+Given User navigates to the Facebook home page&#xD;
+in method before Step 1&#xD;
+-&gt; done: FacebookHomePageLoginStepDefinitions.GivenUserNavigatesToTheFacebookHomePage() (3.4s)&#xD;
+in method after Step 1&#xD;
+in method after Scenario Block&#xD;
+in method before Scenario Block&#xD;
+When User enters "đfffff" as username and "password223" as password&#xD;
+in method before Step 1&#xD;
+-&gt; done: FacebookHomePageLoginStepDefinitions.WhenUserEntersAsUsernameAndAsPassword("đfffff", "password223") (0.2s)&#xD;
+in method after Step 1&#xD;
+And Click on the login button&#xD;
+in method before Step 1&#xD;
+-&gt; done: FacebookHomePageLoginStepDefinitions.WhenClickOnTheLoginButton() (0.1s)&#xD;
+in method after Step 1&#xD;
+in method after Scenario Block&#xD;
+in method before Scenario Block&#xD;
+Then the login not successful&#xD;
+in method before Step 1&#xD;
+Log in to Facebook&#xD;
+-&gt; done: FacebookHomePageLoginStepDefinitions.ThenTheLoginNotSuccessful() (0.9s)&#xD;
+in method after Step 1&#xD;
+in method after Scenario Block&#xD;
+in method after Scenario</StdOut>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="3979d204-d722-486f-9769-8f0a0c428e9f" testId="83b79b24-e804-39b4-95bc-01cbaf237b36" testName="SearchInGGHomePageWithSomeTutorial(&quot;java&quot;,[&quot;intergration&quot;])" computerName="TUU" duration="00:00:00.0056490" startTime="2023-12-01T15:26:44.9291832+07:00" endTime="2023-12-01T15:26:44.9348323+07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="3979d204-d722-486f-9769-8f0a0c428e9f">
+      <Output>
+        <StdOut>in method before Scenario&#xD;
+in method before Scenario Block&#xD;
+Given Google page open&#xD;
+-&gt; done: SearchGoogleStepDefinitions.GivenGooglePageOpen() (0.0s)&#xD;
+And search box should present and enable&#xD;
+-&gt; done: SearchGoogleStepDefinitions.GivenSearchBoxShouldPresentAndEnable() (0.0s)&#xD;
+in method after Scenario Block&#xD;
+in method before Scenario Block&#xD;
+When User search a course with key "java" tutorial&#xD;
+-&gt; done: SearchGoogleStepDefinitions.WhenUserSearchACourseWithKeyTutorial("java") (0.0s)&#xD;
+And hit enter&#xD;
+-&gt; done: SearchGoogleStepDefinitions.whenhitenter() (0.0s)&#xD;
+in method after Scenario Block&#xD;
+in method before Scenario Block&#xD;
+Then all course "java" tutorial should be díplayed&#xD;
+-&gt; done: SearchGoogleStepDefinitions.ThenAllCourseTutorialShouldBeDiplayed("java") (0.0s)&#xD;
+in method after Scenario Block&#xD;
+in method after Scenario</StdOut>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="adf88a6d-9c04-4184-a2c0-3779bcddf5fd" testId="26e73915-d0a7-14f4-2845-752491b92e6a" testName="SearchInGGHomePageWithSomeTutorial(&quot;Selenium&quot;,[&quot;UAT&quot;])" computerName="TUU" duration="00:00:00.0013660" startTime="2023-12-01T15:26:44.9365200+07:00" endTime="2023-12-01T15:26:44.9378858+07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="adf88a6d-9c04-4184-a2c0-3779bcddf5fd">
+      <Output>
+        <StdOut>in method before Scenario&#xD;
+in method before Scenario Block&#xD;
+Given Google page open&#xD;
+in method before Step 2&#xD;
+-&gt; done: SearchGoogleStepDefinitions.GivenGooglePageOpen() (0.0s)&#xD;
+in method after Step 2&#xD;
+And search box should present and enable&#xD;
+in method before Step 2&#xD;
+-&gt; done: SearchGoogleStepDefinitions.GivenSearchBoxShouldPresentAndEnable() (0.0s)&#xD;
+in method after Step 2&#xD;
+in method after Scenario Block&#xD;
+in method before Scenario Block&#xD;
+When User search a course with key "Selenium" tutorial&#xD;
+in method before Step 2&#xD;
+-&gt; done: SearchGoogleStepDefinitions.WhenUserSearchACourseWithKeyTutorial("Selenium") (0.0s)&#xD;
+in method after Step 2&#xD;
+And hit enter&#xD;
+in method before Step 2&#xD;
+-&gt; done: SearchGoogleStepDefinitions.whenhitenter() (0.0s)&#xD;
+in method after Step 2&#xD;
+in method after Scenario Block&#xD;
+in method before Scenario Block&#xD;
+Then all course "Selenium" tutorial should be díplayed&#xD;
+in method before Step 2&#xD;
+-&gt; done: SearchGoogleStepDefinitions.ThenAllCourseTutorialShouldBeDiplayed("Selenium") (0.0s)&#xD;
+in method after Step 2&#xD;
+in method after Scenario Block&#xD;
+in method after Scenario</StdOut>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="df5a99ea-b660-441b-8daf-c015cd5c3e2c" testId="c2d98357-6ba5-ea88-0b66-e53f6c2ba328" testName="ToCheckTheLoginFunctionalityForTheFBHomePageWithInvalidCredentials(&quot;dd%&amp;dff&quot;,&quot;password123&quot;,null)" computerName="TUU" duration="00:00:04.5450320" startTime="2023-12-01T15:26:31.6074606+07:00" endTime="2023-12-01T15:26:36.1524166+07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="df5a99ea-b660-441b-8daf-c015cd5c3e2c">
+      <Output>
+        <StdOut>in method before Scenario&#xD;
+in method before Scenario Block&#xD;
+Given User navigates to the Facebook home page&#xD;
+in method before Step 1&#xD;
+-&gt; done: FacebookHomePageLoginStepDefinitions.GivenUserNavigatesToTheFacebookHomePage() (3.3s)&#xD;
+in method after Step 1&#xD;
+in method after Scenario Block&#xD;
+in method before Scenario Block&#xD;
+When User enters "dd%&amp;dff" as username and "password123" as password&#xD;
+in method before Step 1&#xD;
+-&gt; done: FacebookHomePageLoginStepDefinitions.WhenUserEntersAsUsernameAndAsPassword("dd%&amp;dff", "password123") (0.2s)&#xD;
+in method after Step 1&#xD;
+And Click on the login button&#xD;
+in method before Step 1&#xD;
+-&gt; done: FacebookHomePageLoginStepDefinitions.WhenClickOnTheLoginButton() (0.1s)&#xD;
+in method after Step 1&#xD;
+in method after Scenario Block&#xD;
+in method before Scenario Block&#xD;
+Then the login not successful&#xD;
+in method before Step 1&#xD;
+Log in to Facebook&#xD;
+-&gt; done: FacebookHomePageLoginStepDefinitions.ThenTheLoginNotSuccessful() (1.0s)&#xD;
+in method after Step 1&#xD;
+in method after Scenario Block&#xD;
+in method after Scenario</StdOut>
+      </Output>
+    </UnitTestResult>
+  </Results>
+  <TestDefinitions>
+    <UnitTest name="SearchInGGHomePageWithSomeTutorial(&quot;java&quot;,[&quot;intergration&quot;])" storage="c:\users\vuvan\onedrive\desktop\c#\selenium\selenium\bin\debug\net6.0\selenium.dll" id="83b79b24-e804-39b4-95bc-01cbaf237b36">
+      <Execution id="3979d204-d722-486f-9769-8f0a0c428e9f" />
+      <TestMethod codeBase="C:\Users\vuvan\OneDrive\Desktop\C#\selenium\selenium\bin\Debug\net6.0\selenium.dll" adapterTypeName="executor://nunit3testexecutor/" className="selenium.Features.SearchGoogleFeature" name="SearchInGGHomePageWithSomeTutorial(&quot;java&quot;,[&quot;intergration&quot;])" />
+    </UnitTest>
+    <UnitTest name="ToCheckTheLoginFunctionalityForTheFBHomePageWithInvalidCredentials(&quot;ffeedđ&quot;,&quot;password233&quot;,null)" storage="c:\users\vuvan\onedrive\desktop\c#\selenium\selenium\bin\debug\net6.0\selenium.dll" id="2df186d7-088b-b95e-1cef-393c44be9020">
+      <Execution id="8b194b06-4e6f-449a-99ef-14c812a901c3" />
+      <TestMethod codeBase="C:\Users\vuvan\OneDrive\Desktop\C#\selenium\selenium\bin\Debug\net6.0\selenium.dll" adapterTypeName="executor://nunit3testexecutor/" className="selenium.Features.FacebookHomePageLoginFeature" name="ToCheckTheLoginFunctionalityForTheFBHomePageWithInvalidCredentials(&quot;ffeedđ&quot;,&quot;password233&quot;,null)" />
+    </UnitTest>
+    <UnitTest name="ToCheckTheLoginFunctionalityForTheFBHomePageWithInvalidCredentials(&quot;dd%&amp;dff&quot;,&quot;password123&quot;,null)" storage="c:\users\vuvan\onedrive\desktop\c#\selenium\selenium\bin\debug\net6.0\selenium.dll" id="c2d98357-6ba5-ea88-0b66-e53f6c2ba328">
+      <Execution id="df5a99ea-b660-441b-8daf-c015cd5c3e2c" />
+      <TestMethod codeBase="C:\Users\vuvan\OneDrive\Desktop\C#\selenium\selenium\bin\Debug\net6.0\selenium.dll" adapterTypeName="executor://nunit3testexecutor/" className="selenium.Features.FacebookHomePageLoginFeature" name="ToCheckTheLoginFunctionalityForTheFBHomePageWithInvalidCredentials(&quot;dd%&amp;dff&quot;,&quot;password123&quot;,null)" />
+    </UnitTest>
+    <UnitTest name="ToCheckTheLoginFunctionalityForTheFBHomePageWithInvalidCredentials(&quot;đfffff&quot;,&quot;password223&quot;,null)" storage="c:\users\vuvan\onedrive\desktop\c#\selenium\selenium\bin\debug\net6.0\selenium.dll" id="49eeaa4b-3855-9cf6-20d0-4837e48e8456">
+      <Execution id="6ccd8ec1-c0cb-4094-ba96-c4bf92ff3aad" />
+      <TestMethod codeBase="C:\Users\vuvan\OneDrive\Desktop\C#\selenium\selenium\bin\Debug\net6.0\selenium.dll" adapterTypeName="executor://nunit3testexecutor/" className="selenium.Features.FacebookHomePageLoginFeature" name="ToCheckTheLoginFunctionalityForTheFBHomePageWithInvalidCredentials(&quot;đfffff&quot;,&quot;password223&quot;,null)" />
+    </UnitTest>
+    <UnitTest name="SearchInGGHomePageWithSomeTutorial(&quot;Selenium&quot;,[&quot;UAT&quot;])" storage="c:\users\vuvan\onedrive\desktop\c#\selenium\selenium\bin\debug\net6.0\selenium.dll" id="26e73915-d0a7-14f4-2845-752491b92e6a">
+      <Execution id="adf88a6d-9c04-4184-a2c0-3779bcddf5fd" />
+      <TestMethod codeBase="C:\Users\vuvan\OneDrive\Desktop\C#\selenium\selenium\bin\Debug\net6.0\selenium.dll" adapterTypeName="executor://nunit3testexecutor/" className="selenium.Features.SearchGoogleFeature" name="SearchInGGHomePageWithSomeTutorial(&quot;Selenium&quot;,[&quot;UAT&quot;])" />
+    </UnitTest>
+    <UnitTest name="SearchInGGHomePageWithSomeTutorial(&quot;Specflow&quot;,[&quot;Regression&quot;])" storage="c:\users\vuvan\onedrive\desktop\c#\selenium\selenium\bin\debug\net6.0\selenium.dll" id="c131b42b-2a92-333d-4c47-dd42781d17b6">
+      <Execution id="adb3b222-4d22-4a9e-b122-94f503ec57ba" />
+      <TestMethod codeBase="C:\Users\vuvan\OneDrive\Desktop\C#\selenium\selenium\bin\Debug\net6.0\selenium.dll" adapterTypeName="executor://nunit3testexecutor/" className="selenium.Features.SearchGoogleFeature" name="SearchInGGHomePageWithSomeTutorial(&quot;Specflow&quot;,[&quot;Regression&quot;])" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestEntries>
+    <TestEntry testId="c131b42b-2a92-333d-4c47-dd42781d17b6" executionId="adb3b222-4d22-4a9e-b122-94f503ec57ba" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="2df186d7-088b-b95e-1cef-393c44be9020" executionId="8b194b06-4e6f-449a-99ef-14c812a901c3" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="49eeaa4b-3855-9cf6-20d0-4837e48e8456" executionId="6ccd8ec1-c0cb-4094-ba96-c4bf92ff3aad" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="83b79b24-e804-39b4-95bc-01cbaf237b36" executionId="3979d204-d722-486f-9769-8f0a0c428e9f" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="26e73915-d0a7-14f4-2845-752491b92e6a" executionId="adf88a6d-9c04-4184-a2c0-3779bcddf5fd" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="c2d98357-6ba5-ea88-0b66-e53f6c2ba328" executionId="df5a99ea-b660-441b-8daf-c015cd5c3e2c" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <ResultSummary outcome="Completed">
+    <Counters total="6" executed="6" passed="6" failed="0" error="0" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" completed="0" inProgress="0" pending="0" />
+    <Output>
+      <StdOut>NUnit Adapter 4.1.0.0: Test execution started&#xD;
+Running all tests in C:\Users\vuvan\OneDrive\Desktop\C#\selenium\selenium\bin\Debug\net6.0\selenium.dll&#xD;
+   NUnit3TestExecutor discovered 6 of 6 NUnit test cases using Current Discovery mode, Non-Explicit run&#xD;
+in method before Scenario&#xD;
+in method before Scenario Block&#xD;
+Given User navigates to the Facebook home page&#xD;
+in method before Step 1&#xD;
+-&gt; done: FacebookHomePageLoginStepDefinitions.GivenUserNavigatesToTheFacebookHomePage() (3.3s)&#xD;
+in method after Step 1&#xD;
+in method after Scenario Block&#xD;
+in method before Scenario Block&#xD;
+When User enters "dd%&amp;dff" as username and "password123" as password&#xD;
+in method before Step 1&#xD;
+-&gt; done: FacebookHomePageLoginStepDefinitions.WhenUserEntersAsUsernameAndAsPassword("dd%&amp;dff", "password123") (0.2s)&#xD;
+in method after Step 1&#xD;
+And Click on the login button&#xD;
+in method before Step 1&#xD;
+-&gt; done: FacebookHomePageLoginStepDefinitions.WhenClickOnTheLoginButton() (0.1s)&#xD;
+in method after Step 1&#xD;
+in method after Scenario Block&#xD;
+in method before Scenario Block&#xD;
+Then the login not successful&#xD;
+in method before Step 1&#xD;
+Log in to Facebook&#xD;
+-&gt; done: FacebookHomePageLoginStepDefinitions.ThenTheLoginNotSuccessful() (1.0s)&#xD;
+in method after Step 1&#xD;
+in method after Scenario Block&#xD;
+in method after Scenario&#xD;
+&#xD;
+in method before Scenario&#xD;
+in method before Scenario Block&#xD;
+Given User navigates to the Facebook home page&#xD;
+in method before Step 1&#xD;
+-&gt; done: FacebookHomePageLoginStepDefinitions.GivenUserNavigatesToTheFacebookHomePage() (3.4s)&#xD;
+in method after Step 1&#xD;
+in method after Scenario Block&#xD;
+in method before Scenario Block&#xD;
+When User enters "đfffff" as username and "password223" as password&#xD;
+in method before Step 1&#xD;
+-&gt; done: FacebookHomePageLoginStepDefinitions.WhenUserEntersAsUsernameAndAsPassword("đfffff", "password223") (0.2s)&#xD;
+in method after Step 1&#xD;
+And Click on the login button&#xD;
+in method before Step 1&#xD;
+-&gt; done: FacebookHomePageLoginStepDefinitions.WhenClickOnTheLoginButton() (0.1s)&#xD;
+in method after Step 1&#xD;
+in method after Scenario Block&#xD;
+in method before Scenario Block&#xD;
+Then the login not successful&#xD;
+in method before Step 1&#xD;
+Log in to Facebook&#xD;
+-&gt; done: FacebookHomePageLoginStepDefinitions.ThenTheLoginNotSuccessful() (0.9s)&#xD;
+in method after Step 1&#xD;
+in method after Scenario Block&#xD;
+in method after Scenario&#xD;
+&#xD;
+in method before Scenario&#xD;
+in method before Scenario Block&#xD;
+Given User navigates to the Facebook home page&#xD;
+in method before Step 1&#xD;
+-&gt; done: FacebookHomePageLoginStepDefinitions.GivenUserNavigatesToTheFacebookHomePage() (2.4s)&#xD;
+in method after Step 1&#xD;
+in method after Scenario Block&#xD;
+in method before Scenario Block&#xD;
+When User enters "ffeedđ" as username and "password233" as password&#xD;
+in method before Step 1&#xD;
+-&gt; done: FacebookHomePageLoginStepDefinitions.WhenUserEntersAsUsernameAndAsPassword("ffeedđ", "password233") (0.8s)&#xD;
+in method after Step 1&#xD;
+And Click on the login button&#xD;
+in method before Step 1&#xD;
+-&gt; done: FacebookHomePageLoginStepDefinitions.WhenClickOnTheLoginButton() (0.1s)&#xD;
+in method after Step 1&#xD;
+in method after Scenario Block&#xD;
+in method before Scenario Block&#xD;
+Then the login not successful&#xD;
+in method before Step 1&#xD;
+Log in to Facebook&#xD;
+-&gt; done: FacebookHomePageLoginStepDefinitions.ThenTheLoginNotSuccessful() (1.0s)&#xD;
+in method after Step 1&#xD;
+in method after Scenario Block&#xD;
+in method after Scenario&#xD;
+&#xD;
+in method before Scenario&#xD;
+in method before Scenario Block&#xD;
+Given Google page open&#xD;
+-&gt; done: SearchGoogleStepDefinitions.GivenGooglePageOpen() (0.0s)&#xD;
+And search box should present and enable&#xD;
+-&gt; done: SearchGoogleStepDefinitions.GivenSearchBoxShouldPresentAndEnable() (0.0s)&#xD;
+in method after Scenario Block&#xD;
+in method before Scenario Block&#xD;
+When User search a course with key "java" tutorial&#xD;
+-&gt; done: SearchGoogleStepDefinitions.WhenUserSearchACourseWithKeyTutorial("java") (0.0s)&#xD;
+And hit enter&#xD;
+-&gt; done: SearchGoogleStepDefinitions.whenhitenter() (0.0s)&#xD;
+in method after Scenario Block&#xD;
+in method before Scenario Block&#xD;
+Then all course "java" tutorial should be díplayed&#xD;
+-&gt; done: SearchGoogleStepDefinitions.ThenAllCourseTutorialShouldBeDiplayed("java") (0.0s)&#xD;
+in method after Scenario Block&#xD;
+in method after Scenario&#xD;
+&#xD;
+in method before Scenario&#xD;
+in method before Scenario Block&#xD;
+Given Google page open&#xD;
+-&gt; done: SearchGoogleStepDefinitions.GivenGooglePageOpen() (0.0s)&#xD;
+And search box should present and enable&#xD;
+-&gt; done: SearchGoogleStepDefinitions.GivenSearchBoxShouldPresentAndEnable() (0.0s)&#xD;
+in method after Scenario Block&#xD;
+in method before Scenario Block&#xD;
+When User search a course with key "Specflow" tutorial&#xD;
+-&gt; done: SearchGoogleStepDefinitions.WhenUserSearchACourseWithKeyTutorial("Specflow") (0.0s)&#xD;
+And hit enter&#xD;
+-&gt; done: SearchGoogleStepDefinitions.whenhitenter() (0.0s)&#xD;
+in method after Scenario Block&#xD;
+in method before Scenario Block&#xD;
+Then all course "Specflow" tutorial should be díplayed&#xD;
+-&gt; done: SearchGoogleStepDefinitions.ThenAllCourseTutorialShouldBeDiplayed("Specflow") (0.0s)&#xD;
+in method after Scenario Block&#xD;
+in method after Scenario&#xD;
+&#xD;
+in method before Scenario&#xD;
+in method before Scenario Block&#xD;
+Given Google page open&#xD;
+in method before Step 2&#xD;
+-&gt; done: SearchGoogleStepDefinitions.GivenGooglePageOpen() (0.0s)&#xD;
+in method after Step 2&#xD;
+And search box should present and enable&#xD;
+in method before Step 2&#xD;
+-&gt; done: SearchGoogleStepDefinitions.GivenSearchBoxShouldPresentAndEnable() (0.0s)&#xD;
+in method after Step 2&#xD;
+in method after Scenario Block&#xD;
+in method before Scenario Block&#xD;
+When User search a course with key "Selenium" tutorial&#xD;
+in method before Step 2&#xD;
+-&gt; done: SearchGoogleStepDefinitions.WhenUserSearchACourseWithKeyTutorial("Selenium") (0.0s)&#xD;
+in method after Step 2&#xD;
+And hit enter&#xD;
+in method before Step 2&#xD;
+-&gt; done: SearchGoogleStepDefinitions.whenhitenter() (0.0s)&#xD;
+in method after Step 2&#xD;
+in method after Scenario Block&#xD;
+in method before Scenario Block&#xD;
+Then all course "Selenium" tutorial should be díplayed&#xD;
+in method before Step 2&#xD;
+-&gt; done: SearchGoogleStepDefinitions.ThenAllCourseTutorialShouldBeDiplayed("Selenium") (0.0s)&#xD;
+in method after Step 2&#xD;
+in method after Scenario Block&#xD;
+in method after Scenario&#xD;
+&#xD;
+NUnit Adapter 4.1.0.0: Test execution complete&#xD;
+</StdOut>
+    </Output>
+  </ResultSummary>
+</TestRun>

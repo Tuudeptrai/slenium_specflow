@@ -9,7 +9,7 @@ namespace selenium.StepDefinitions
         [Given(@"Google page open")]
         public void GivenGooglePageOpen()
         {
-            
+         
         }
 
         [Given(@"search box should present and enable")]

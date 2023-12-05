@@ -21,14 +21,12 @@ namespace selenium.Features
     [System.Runtime.CompilerServices.CompilerGeneratedAttribute()]
     [NUnit.Framework.TestFixtureAttribute()]
     [NUnit.Framework.DescriptionAttribute("search Google")]
-    [NUnit.Framework.CategoryAttribute("E2E")]
     public partial class SearchGoogleFeature
     {
         
         private TechTalk.SpecFlow.ITestRunner testRunner;
         
-        private string[] _featureTags = new string[] {
-                "E2E"};
+        private string[] _featureTags = ((string[])(null));
         
 #line 1 "gg.feature"
 #line hidden
@@ -37,8 +35,7 @@ namespace selenium.Features
         public virtual void FeatureSetup()
         {
             testRunner = TechTalk.SpecFlow.TestRunnerManager.GetTestRunner();
-            TechTalk.SpecFlow.FeatureInfo featureInfo = new TechTalk.SpecFlow.FeatureInfo(new System.Globalization.CultureInfo("en-US"), "Features", "search Google", null, ProgrammingLanguage.CSharp, new string[] {
-                        "E2E"});
+            TechTalk.SpecFlow.FeatureInfo featureInfo = new TechTalk.SpecFlow.FeatureInfo(new System.Globalization.CultureInfo("en-US"), "Features", "search Google", null, ProgrammingLanguage.CSharp, ((string[])(null)));
             testRunner.OnFeatureStart(featureInfo);
         }
         
